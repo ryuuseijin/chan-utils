@@ -34,4 +34,4 @@
        e#)))
 
 (defmacro go-catchall [& body]
-  `(catchall ~@body))
+  `(go (catchall ~@body)))
