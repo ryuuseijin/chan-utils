@@ -1,5 +1,5 @@
 (ns ryuuseijin.chan-utils.core
-  (:require [clojure.core.async :refer [chan promise-chan >! <! go go-loop put!]]))
+  (:require [clojure.core.async :refer [chan promise-chan >! <! <!! go go-loop put!]]))
 
 (defn resolved-promise-chan
   "Returns a promise-chan that resolves to the given value."
